@@ -21,9 +21,5 @@ subject to {
   
   forall(j in Cities)
     sum(i in Cities: i!=j) x[i][j] == 1;
-  
-  // Subtour elimination constraints
-  // (These constraints prevent the existence of subtours in the optimal solution)
-  // ... (you would need to add the subtour elimination constraints here)
 }
  
